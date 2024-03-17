@@ -31,3 +31,10 @@ body {
     text-wrap: balance;
   }
 }
+
+.custom-container {
+  width: 100%; /* Ensure it fills the navbar */
+  max-width: none; /* Override Bootstrap's max-width for containers */
+  margin-right: auto;
+  margin-left: auto;
+}
